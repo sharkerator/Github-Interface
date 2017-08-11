@@ -1,0 +1,39 @@
+.search{
+  background-color: $black;
+  padding: 12px 0;
+  color: #ffffff;
+  margin-bottom: 25px;
+
+  &__form{
+    display: flex;
+  }
+
+  &__input-wrap{
+    flex: 0 0 250px;
+    margin-right: 15px;
+  }
+
+  &__label{
+    font-size: 13px;
+    margin-bottom: 4px;
+    display: block;
+  }
+
+  &__input{
+    padding: 0 7px;
+    border-radius: 4px;
+    width: 100%;
+    height: 30px;
+    border: 0;
+  }
+
+  &__submit{
+    align-self: flex-end;
+    a{
+      color: #ffffff;
+      height: 30px;
+      line-height: 30px;
+      text-decoration: none;
+    }
+  }
+}

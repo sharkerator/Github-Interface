@@ -1,0 +1,38 @@
+.issues{
+
+  &__item{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  &__user{
+    flex: 0 0 120px;
+    margin-right: 15px;
+  }
+
+  &__content{
+    flex: 1 1 auto;
+  }
+
+  &__content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__title{
+    margin-bottom: 8px;
+    flex: 1 1 100%;
+
+    a{
+      font-weight: bold;
+      font-size: 15px;
+      margin-bottom: 15px;
+      color: $black;
+    }
+  }
+
+  &__number{
+    margin-right: 10px;
+  }
+}

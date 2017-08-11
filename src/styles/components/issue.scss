@@ -1,0 +1,31 @@
+.issue{
+  display: flex;
+  flex-wrap: wrap;
+
+  &__user{
+    flex: 0 0 120px;
+    margin-right: 25px;
+  }
+
+  &__info{
+    flex: 1 1 auto;
+  }
+
+  &__title{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  &__body{
+    flex: 1 1 100%;
+    margin-top: 25px;
+    line-height: 1.4;
+  }
+
+  &__link{
+    display: inline-block;
+    margin-top: 5px;
+  }
+}
